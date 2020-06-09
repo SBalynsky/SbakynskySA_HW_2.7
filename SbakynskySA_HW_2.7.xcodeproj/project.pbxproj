@@ -15,6 +15,7 @@
 		FA9548CD248FFC6E00D8C647 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9548CC248FFC6E00D8C647 /* ContactsTableViewController.swift */; };
 		FA9548D0248FFCD800D8C647 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9548CF248FFCD800D8C647 /* Model.swift */; };
 		FA9548D324900A6800D8C647 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9548D224900A6800D8C647 /* DataManager.swift */; };
+		FA9548D724904CD300D8C647 /* DetailsPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9548D624904CD300D8C647 /* DetailsPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FA9548CC248FFC6E00D8C647 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		FA9548CF248FFCD800D8C647 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FA9548D224900A6800D8C647 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FA9548D624904CD300D8C647 /* DetailsPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				FA9548CC248FFC6E00D8C647 /* ContactsTableViewController.swift */,
+				FA9548D624904CD300D8C647 /* DetailsPersonViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				FA9548D324900A6800D8C647 /* DataManager.swift in Sources */,
 				FA6D3B95248FF6D400294933 /* SceneDelegate.swift in Sources */,
 				FA9548CD248FFC6E00D8C647 /* ContactsTableViewController.swift in Sources */,
+				FA9548D724904CD300D8C647 /* DetailsPersonViewController.swift in Sources */,
 				FA9548D0248FFCD800D8C647 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

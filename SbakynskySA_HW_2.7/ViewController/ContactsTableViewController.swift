@@ -34,6 +34,7 @@ class ContactsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personsList", for: indexPath)
 
         cell.textLabel?.text = "\(persons[indexPath.row].name) \(persons[indexPath.row].surname)"
+        
       
 
     
@@ -78,14 +79,15 @@ class ContactsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+   
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+         guard let indexPath = tableView.indexPathForSelectedRow  else { return }
+        let destinationVC = segue.destination as! DetailsPersonViewController
+        destinationVC.person = persons[indexPath.row]
     }
-    */
+
 
 }
