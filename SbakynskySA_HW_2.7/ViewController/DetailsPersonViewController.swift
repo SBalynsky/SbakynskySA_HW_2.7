@@ -9,7 +9,7 @@
 import UIKit
 
 class DetailsPersonViewController: UIViewController {
-
+    
     @IBOutlet weak var telNumberLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     
@@ -21,5 +21,5 @@ class DetailsPersonViewController: UIViewController {
         self.navigationItem.title = "\(person.name) \(person.surname)"
     }
     
-
+    
 }
